@@ -1,5 +1,5 @@
 {
-  "name": "ghost-static-site-generator",
+  "name": "@lukefaccin/ghost-static-site-generator",
   "version": "1.0.2",
   "description": "A simple static site generator for ghost",
   "main": "index.js",
@@ -12,7 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fried-Chicken/ghost-static-site-generator.git"
+    "url": "https://github.com/lukefaccin/ghost-static-site-generator.git"
+  },
+  "publishConfig": {
+    "@lukefaccin:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "ghost",
@@ -21,12 +24,12 @@
     "site",
     "blog"
   ],
-  "author": "Fried-Chicken <Fried-Chicken@users.noreply.github.com>",
+  "author": "Luke Faccin <lukefaccin@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Fried-Chicken/ghost-static-site-generator/issues"
+    "url": "https://github.com/lukefaccin/ghost-static-site-generator/issues"
   },
-  "homepage": "https://github.com/Fried-Chicken/ghost-static-site-generator#readme",
+  "homepage": "https://github.com/lukefaccin/ghost-static-site-generator#readme",
   "dependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
